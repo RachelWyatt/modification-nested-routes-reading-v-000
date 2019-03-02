@@ -3973,3 +3973,4 @@ Processing by PostsController#show as HTML
   [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 17]]
   [1m[35mAuthor Load (0.2ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 5]]
   Rendered posts/show.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 29ms (Views: 26.4ms | ActiveRecord: 0.7ms)
